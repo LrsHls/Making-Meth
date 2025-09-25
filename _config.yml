@@ -1,3 +1,11 @@
-theme: jekyll-theme-minimal
-title: Time To Cook!
-description: Click on the Homepage button to continue!
+title: Let's Cook!
+description: A personal blog hosted on GitHub Pages
+url: https://username.github.io
+theme: minima
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+markdown: kramdown
+exclude:
+ - Gemfile
+ - Gemfile.lock

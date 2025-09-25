@@ -1,18 +1,1 @@
-# Homepage Configuration Example
-title: "My Dashboard"
-
-
-# Navigation Links
-navigation:
-  - name: "Home"
-    url: "/"
-    icon: "mdi-home"
-  - name: "Email"
-    url: "https://mail.example.com"
-    icon: "mdi-email"
-  - name: "Calendar"
-    url: "https://calendar.example.com"
-    icon: "mdi-calendar"
-
-
-
+title: "Let's Cook!"

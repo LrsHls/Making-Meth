@@ -1,23 +1,59 @@
-// you can change these three
-$c: gainsboro; // grid lines
-$d: 1em; // grid cell size
-$l: 1px; // line thickness
+details {
+  width: 80%;
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-// computed value, don't change
-$o: .5*$l;
+summary {
+  padding: 1rem;
+  display: block;
+  background: #333;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/////////////////////////////////////////
 
 body {
-	background: 
-		/* horizontal and vertical lines */
-		conic-gradient(from 90deg at $l $l, 
-				#0000 25%, $c 0%) 
-			#{-1*$o -1*$o}/ #{$d $d}, 
-		/* main diagonal */
-		linear-gradient(45deg, 
-				#0000 calc(50% + -1*#{$o}), 
-				$c 0 calc(50% + #{$o}), #0000 0) 0 0/ #{2*$d 2*$d}, 
-		/* secondary diagonal */
-		linear-gradient(-45deg, 
-				#0000 calc(50% + -1*#{$o}), 
-				$c 0 calc(50% + #{$o}), #0000 0) 0 0/ #{2*$d 2*$d}
+  background: #222;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 2rem;
 }

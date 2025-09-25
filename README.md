@@ -2,4 +2,4 @@
 
 ![MethMolecule](Photos/photoice.jpg)                                                    
 
-<button>onclick="window.location.href='https://example.com';">Let's Cook!</button>
+<button type="button">Let's Cook!</button>

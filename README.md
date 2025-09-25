@@ -1,3 +1,3 @@
 # WELCOME!
 
-[HOMEPAGE](homepage.html)
+![Alt Text](image-path)

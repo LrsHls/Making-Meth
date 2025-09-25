@@ -1,3 +1,3 @@
 # WELCOME!
 
-![Alt Text](image-path)
+![MethMolecule](Photos/photoice.jpg)

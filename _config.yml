@@ -1,6 +1,6 @@
 # Homepage Configuration Example
 title: "My Dashboard"
-theme: "dark"  # Options: light, dark, custom
+
 
 # Navigation Links
 navigation:

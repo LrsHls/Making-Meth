@@ -14,27 +14,5 @@ navigation:
     url: "https://calendar.example.com"
     icon: "mdi-calendar"
 
-# Services Section
-services:
-  - name: "GitHub"
-    url: "https://github.com"
-    icon: "mdi-github"
-  - name: "Docker"
-    url: "https://hub.docker.com"
-    icon: "mdi-docker"
-  - name: "Netflix"
-    url: "https://netflix.com"
-    icon: "mdi-netflix"
 
-# Weather Widget
-weather:
-  enabled: true
-  api_key: "your_openweather_api_key"
-  location: "Ede, NL"
-  units: "metric"  # Options: metric, imperial
 
-# Customization
-custom_css: |
-  body {
-    font-family: "Arial, sans-serif";
-  }
